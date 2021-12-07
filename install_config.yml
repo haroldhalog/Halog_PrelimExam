@@ -1,0 +1,10 @@
+---
+- hosts: all
+
+  vars:
+    message: HALOG HAROLD!
+  
+  tasks:
+  - name: Configure the yaml
+    debug:
+      msg: "{{Prelim SKills Exam }}"
